@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="src/assets/simbol-color.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet For Teams</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <img id="header-logo" src="src/assets/logo.svg" alt="Intranet For Teams">  
+            <nav class="header-menu">
+                <ul>
+                    <li><a href="#">O Produto</a></li>
+                    <li><a href="#">Funcionalidades</a></li>
+                    <li><a href="#">Preço</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="hamburguer">
+                <input type="checkbox"
+                id="checkbox-menu" 
+                onclick="toggleClass()"
+                >
+                <label for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <a id ="header-link" href="#">Quero uma demonstração</a>
+        </div>
+    </header>
+    <section class="main-banner">
+        <div class="content">
+            <div id="main-banner-content">         
+                <h1 id="mb-title">Communicate.<br>Collaborate.<br>Co-innovate.</h1>
+                <p class="mb-p">
+                    <img src="src/assets/check-icon.svg" 
+                    alt="A porta de entrada para o seu Workplace Digital"
+                    >
+                    <span class="mb-span">A porta de entrada para o seu Workplace Digital</span>
+                </p>
+                <p class="mb-p">
+                    <img src="src/assets/check-icon.svg" 
+                    alt="Simplifica a comunicação interna, melhora o engajamento e clima"
+                    >
+                    <span class="mb-span">
+                        Simplifica a comunicação interna, melhora o engajamento e clima
+                    </span>
+                </p>
+                <p class="mb-p">
+                    <img src="src/assets/check-icon.svg" alt="Navegação intuitiva">
+                    <span class="mb-span">Navegação intuitiva</span>
+                </p>
+                <p class="mb-p">
+                    <img src="src/assets/check-icon.svg" 
+                    alt="Espaço de trabalho moderno, simples e colaborativo"
+                    >
+                    <span class="mb-span">Espaço de trabalho moderno, simples e colaborativo</span>
+                </p>
+                <p class="mb-p">
+                    <img src="src/assets/check-icon.svg" 
+                    alt="Multiplataforma: acesse pelo seu Teams no computador, pelo SharePoint no seu brower favorito ou pelo Aplicativo do Teams no seu celular"
+                    >
+                    <span class="mb-span">
+                        Multiplataforma: acesse pelo seu Teams no computador, pelo SharePoint no seu brower favorito ou pelo Aplicativo do Teams no seu celular
+                    </span>
+                </p>
+                <footer id="mb-footer">
+                    <p id="mb-footer-p">
+                        FEITO COM 
+                        <span id="mb-footer-span">
+                            <img src="src/assets/heart.svg" alt="Amor" >
+                        </span> 
+                        PARA O TEAMS, SHAREPOINT E MICROSOFT 365
+                    </p>
+                    <p id="mb-footer-imgs">
+                        <img src="src/assets/microsoft-teams.svg" alt="Microsoft Teams">
+                        <img src="src/assets/microsoft-sharepoint.svg" alt="Microsoft Sharepoint">
+                        <img src="src/assets/microsoft-365.svg" alt="Microsoft 365">
+                    </p>
+                </footer>       
+            </div>
+            <div id="mb-img">
+                <img src="src/images/main-photo.png" alt="Mulher com tablet">
+            </div>
+        </div>
+    </section>
+    <section class="funcionalidades">
+        <div class="content">
+            <div id="funcionalidades-imgs">
+                <img src="src/assets/funcionalidades.svg" alt="Funcionalidades">
+            </div>
+            <div id="funcionalidades-content">
+                <h1 id="funcionalidades-title">Nossas Funcionalidades</h1>
+                <p id="funcionalidades-p">
+                    São mais de 30 funcionalidades exclusivas para transformar o espaço de trabalho da sua empresa
+                </p>
+                <div id="funcionalidades-itens">
+                    <div id="itens-esq">
+                        <p class="item">
+                            <img src="src/assets/home-icon.svg" alt="Página Inicial">
+                            <span class="item">Página Inicial</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/compass-icon.svg" 
+                            alt="Notícias da Empresa"
+                            >
+                            <span class="item">Notícias da Empresa</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/award-icon.svg" 
+                            alt="Banners - Conteúdos em destaque"
+                            >
+                            <span class="item">Banners - Conteúdos em destaque</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/airplay-icon.svg" 
+                            alt="Páginas de conteúdo"
+                            >
+                            <span class="item">Páginas de conteúdo</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/server-icon.svg" alt="Enquete">
+                            <span class="item">Enquete</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/edit-icon.svg" 
+                            alt="Últimos documentos modificados"
+                            >
+                            <span class="item">Últimos documentos modificados</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/dollar-icon.svg" alt="Classificados">
+                            <span class="item">Classificados</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/gift.svg" alt="Aniversariantes">
+                            <span class="item">Aniversariantes</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/alert-icon.svg" alt="Alertas pop-up">
+                            <span class="item">Alertas pop-up</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/coffee-icon.svg" 
+                            alt="Eventos e Treinamentos"
+                            >
+                            <span class="item">Eventos e Treinamentos</span>
+                        </p>
+                    </div>
+                    <div id="itens-dir">
+                        <p class="item">
+                            <img src="src/assets/users-icon.svg" 
+                            alt="Social Hub (Yammer)"
+                            >
+                            <span class="item">Social Hub (Yammer)</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/camera-icon.svg" alt="Blogs">
+                            <span class="item">Blogs</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/phone-icon.svg" alt="Forms">
+                            <span class="item">Forms</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/smile-icon.svg" 
+                            alt="Teamwork Hub (Microsoft 365 Groups)"
+                            >
+                            <span class="item">
+                                Teamwork Hub (Microsoft 365 Groups)
+                            </span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/cpu-icon.svg" 
+                            alt="BackOffice para Administração do conteúdo"
+                            >
+                            <span class="item">
+                                BackOffice para Administração do conteúdo
+                            </span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/mic-icon.svg" alt="Multilingual">
+                            <span class="item">Multilingual</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/hash-icon.svg" 
+                            alt="Social Hub (Yammer)"
+                            >
+                            <span class="item">Social Hub (Yammer)</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/like-icon.svg" 
+                            alt="Prêmios e Reconhecimentos"
+                            >
+                            <span class="item">Prêmios e Reconhecimentos</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/eye-icon.svg" alt="Gamificação">
+                            <span class="item">Gamificação</span>
+                        </p>
+                        <p class="item">
+                            <img src="src/assets/plus-square-icon.svg" 
+                            alt="Mais Funções da Intranet"
+                            >
+                            <a href="#">
+                                <span class="item">+ FUNÇÕES DA INTRANET</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="addons">
+        <div class="content">
+            <h1 id="addons-title">Add-Ons</h1>
+            <p id="addons-p">
+                São funcionalidades extras para potencializar seu ambiente colaborativo e estão inclusos no pacote único do produto, sem custos adicionais.
+            </p>
+            <div id="addons-itens">
+                <div id="addons-column-1">
+                    <div class="addons-item">
+                        <img src="src/assets/ideia-icon.svg" alt="Add-On Ideias">
+                        <h2>Add-On Ideias</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni porro, veritatis soluta facere placeat beatae labore laboriosam et asperiores amet voluptates hic voluptas itaque nesciunt iste illum? Aliquam, vero nobis.
+                        </p>
+                    </div>
+                    <div class="addons-item">
+                        <img src="src/assets/requisicao-icon.svg" alt="Add-On Requisição de Vagas">
+                        <h2>Add-On Requisição de Vagas</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto iusto beatae commodi ipsa dolore optio sint rem doloribus unde. Tenetur ratione laborum dolorem deleniti eaque nobis ea debitis alias?
+                        </p>
+                    </div>
+                </div>
+                <div id="addons-column-2">
+                    <div class="addons-item">
+                        <img src="src/assets/solicitacao-icon.svg" alt="Add-On Solicitação de Reembolso">
+                        <h2>Add-On Solicitação de Reembolso</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptas eos, asperiores odit eum inventore possimus sed. Harum autem aut architecto dolores vel corporis explicabo illo, quasi quibusdam, at ratione.
+                        </p>
+                    </div>
+                    <div class="addons-item">
+                        <img src="src/assets/base-icon.svg" alt="Base de Conhecimento">
+                        <h2>Base de Conhecimento</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A similique aliquid architecto minima illo veritatis perferendis inventore, voluptates itaque! In eligendi eum autem quisquam corrupti culpa similique, totam nulla dignissimos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Quero uma demonstração</a>
+        </div>
+    </section>
+    <section class="multiplataforma">
+        <div class="content">
+            <div id="multiplataforma-content">
+                <h1>Multiplataforma</h1>
+                <p>
+                    <img src="src/assets/monitor.svg" 
+                    alt="Acesse pelo aplicativo do Teams no seu Desktop"
+                    >
+                    <span class="multiplataforma-span">
+                        Acesse pelo aplicativo do Teams no seu Desktop
+                    </span>
+                </p>
+                <p>
+                    <img src="src/assets/copy.svg" alt="Acesse pelo seu browser favorito">
+                    <span class="multiplataforma-span">
+                        Acesse pelo seu browser favorito
+                    </span>
+                </p>
+                <p>
+                    <img src="src/assets/smartphone.svg" 
+                    alt="Acesse pelo aplicativo do Teams no seu celular iOS ou Android"
+                    >
+                    <span class="multiplataforma-span">
+                        Acesse pelo aplicativo do Teams no seu celular iOS ou Android
+                    </span>
+                </p>
+                <p>
+                    <a href="#">Quero uma demonstração</a>
+                </p>
+            </div>
+            <div id="multiplataforma-imgs">
+                <img src="src/images/prints.jpg" 
+                alt="Screenshots do aplicativo mobile e do aplicativo desktop"
+                >
+            </div>
+        </div>
+    </section>
+    <section class="planos">
+        <div class="content">
+            <h1>Intra Planos</h1>
+            <p>Escolha os recursos do que você precisa!</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-intra">Intra - Intranet for Teams</th>
+                        <th class="table-standard">Standard (2 semanas)</th>
+                        <th class="table-enterprise">Enterprise (8 - 12 semanas)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-content">Customizações, integrações e migrações</td>
+                        <td class="table-content">-</td>
+                        <td class="table-content">
+                            <img src="src/assets/check-green-icon.svg"
+                            alt="Customizações, integrações e migrações inclusos"
+                            >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">Plano de lançamento ( 1 workshop )</td>
+                        <td class="table-content">-</td>
+                        <td class="table-content">
+                            <img src="src/assets/check-green-icon.svg" 
+                            alt="Plano de lançamento (1 workshop) incluso"
+                            >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">Planejamento modelo de governança ( 1 - 2 workshops )</td>
+                        <td class="table-content">-</td>
+                        <td class="table-content">
+                            <img src="src/assets/check-green-icon.svg" 
+                            alt="Planejamento modelo de governança (1-2 workshops) incluso"
+                            >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">Planejamento arquitetura da informação</td>
+                        <td class="table-content">1 workshop</td>
+                        <td class="table-content">2 - 3 workshops</td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">Suporte ( 10 horas )</td>
+                        <td class="table-content">-</td>
+                        <td class="table-content">
+                            <img src="src/assets/check-green-icon.svg" 
+                            alt="Suporte (10 horas) incluso"
+                            >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">Treinamento</td>
+                        <td class="table-content">1 sessão</td>
+                        <td class="table-content">2 - 4 sessões</td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">Branding</td>
+                        <td class="table-content">Basic</td>
+                        <td class="table-content">Full-scale</td>
+                    </tr>
+                    <tr>
+                        <td class="table-content">Setup</td>
+                        <td class="table-content">-</td>
+                        <td class="table-content">
+                            <img src="src/assets/check-green-icon.svg" 
+                            alt="Setup incluso"
+                            >
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="modulos">
+        <div class="content">
+            <h1 class="modulos-h1">Módulos do Produto</h1>
+            <p class="modulos-p">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi labore, quasi alias dolore voluptatem vero ducimus officiis voluptatibus.
+            </p>
+            <div class="modulos-content">
+                <div class="m-content-esq">
+                    <h2>Intra - Pacote Básico</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quisquam eius repellendus velit aspernatur nesciunt, suscipit sint dignissimos odit dolor aliquam in tempore minima recusandae aperiam distinctio cupiditate molestiae mollitia.
+                    </p>
+                </div>
+                <div class="m-content-dir">
+                    <h2>Add-Ons</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, esse laudantium voluptate exercitationem ab ullam, repellendus aliquam commodi dolore eius dolorum magni vero architecto fugit tenetur quas fuga qui quia?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="entrega">
+        <div class="content">
+            <div class="container">
+                <h1>Entregáveis por Plano</h1>
+                <div class="entrega-planos">
+                    <div class="entrega-esq">
+                        <img src="src/assets/calendar01.svg" alt="Standard">
+                        <span class="info">
+                            <h2>Standard</h2>
+                            <h5>2 SEMANAS</h5>
+                            <p>
+                                <span>~ 15 dias de trabalho</span>
+                                Foco na arquitetura da informação. Maximizando a entrega.
+                            </p>
+                        </span>
+                    </div>
+                    <div class="entrega-dir">
+                        <img src="src/assets/calendar02.svg" alt="Enterprise">
+                        <span class="info">
+                            <h2>Enterprise</h2>
+                            <h5>8 - 12 SEMANAS</h5>
+                            <p>
+                                <span>> 50 dias de trabalho</span>
+                                Foco na governança e personalização da sua internet.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="licenciamento">
+                    <div class="licenciamento-content">
+                        <div class="l-title">
+                            <h2>
+                                <img src="src/assets/licenciamento.svg" alt="Licenciamento"> 
+                                Licenciamento
+                            </h2>
+                            <p>
+                                Valor por usuário com desconto por faixa de usuários
+                            </p>
+                        </div>
+                        <div class="licenciamento-users">
+                            <p>
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                            </p>
+                            <p>&lt; 100 users</p>
+                        </div>
+                        <div class="licenciamento-users">
+                            <p>
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                            </p>
+                            <p>101 - 1000 users</p>
+                        </div>
+                        <div class="licenciamento-users">
+                            <p>
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                            </p>
+                            <p>1001 - 5000 users</p>
+                        </div>
+                        <div class="licenciamento-users">
+                            <p>
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                                <img src="src/assets/user.svg" alt="Menos que 100 usuários">
+                            </p>
+                            <p>> 5001 users</p>
+                        </div>
+                    </div>
+                    <a href="#">Quero uma demonstração</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sobre">
+        <div class="content">
+            <img src="src/images/group 1.jpg"
+            alt="Pessoas reunidas" 
+            style="height: 250px; width: 200px;"
+            >
+            <div class="sobre-content">
+                <img src="src/assets/quote-icon.svg" 
+                alt="Transformamos a sua maneira de trabalhar, por meio de espaços de trabalho digitais promovendo colaboração e produtividade"
+                >
+                <p>
+                    Transformamos a sua maneira de trabalhar, por meio de espaços de trabalho digitais promovendo colaboração e produtividade
+                </p>
+                <img src="src/assets/trinapse.svg" alt="Logotipo da Trinapse">
+            </div>
+            <img src="src/images/group 2.jpg" 
+            alt="Pessoas reunidas" 
+            style="height: 300px;width: 260px;"
+            >
+        </div>
+    </section>
+    <section class="contato">
+        <div class="content">
+            <h1>
+                <span>FICOU INTERESSADO?</span>
+                Entre em contato com a gente e tire todas suas dúvidas!
+            </h1>
+            <div class="contato-form">
+                <form>
+                    <p>
+                        Preencha os dados abaixo, ou se preferir pelo telefone +55 11 2626 2976
+                    </p>
+                    <label for="name">Nome</label>
+                    <input type="text" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Digite seu nome" 
+                    required
+                    >
+                    <label for="email">E-mail</label>
+                    <input type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Digite seu e-mail"
+                    required
+                    >
+                    <label for="tel">Telefone</label>
+                    <input type="tel" 
+                    name="tel" 
+                    id="tel" 
+                    placeholder="(99) 99999 9999"
+                    required
+                    >
+                    <label for="msg">Mensagem</label>
+                    <textarea name="msg" 
+                    id="msg" 
+                    cols="30" 
+                    rows="10" 
+                    placeholder="Escreva sua mensagem"
+                    required
+                    >
+                    </textarea>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="content">
+            <img class="footer-logo" src="src/assets/logo-footer.svg" alt="Intranet For Teams">
+            <div class="footer-p">
+                <p>
+                    &copy;2020 INTRA. TODOS OS DIREITOS RESERVADOS | BY TRINAPSE
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="src/scripts/scripts.js"></script>
+</body>
+</html>
